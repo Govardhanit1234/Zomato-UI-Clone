@@ -39,7 +39,6 @@ This project is a UI Clone of Zomato, designed to replicate the core features of
 ## Technology Stack
 
 - Frontend Framework: React.js
-- State Management: Redux
 - Styling:Material UI
 
 
