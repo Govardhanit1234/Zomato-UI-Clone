@@ -74,4 +74,4 @@ This project is a UI Clone of Zomato, designed to replicate the core features of
 
 
 ### Live Project Link
-https://sunny-bonbon-2a1d75.netlify.app
+https://stunning-zuccutto-cc877f.netlify.app
