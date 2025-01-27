@@ -1,0 +1,119 @@
+.header{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.logo img{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
+
+.header-right{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.header-location-search-container{
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-bg);
+  border-radius: 0.8rem;
+  box-shadow: var(--primary-box-shadow);
+  border: 1px solid var(--border-white);
+  width: 70%;
+  cursor: pointer;
+}
+.dropdown-item{
+    display: block;
+    
+}
+.dropdown-menu {
+    position: absolute;
+    top: 60px; /* Adjust based on your header height */
+    right: 100px; /* Align to the profile wrapper */
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f4f4f4;
+  }
+  
+
+.location-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.location-icon-name{
+    display: flex;
+    color: var(--zomato-gray);
+}
+.location-icon{
+    color: var(--zomato-red);
+    font-size: 20px;
+    margin-right:8px ;
+}
+.locatiom-search-seperator{
+    height: 20px;
+    border:0.05rem solid var(--gray);
+}
+.header-searchBar{
+    display: flex;
+    flex: 2;
+}
+.search-icon{
+    font-size: 20px;
+    color: var(--zomato-gray);
+    margin: 0px 12px;
+}
+.search-input{
+    border: none;
+    outline: none;
+    width: 60%;
+    cursor: pointer;
+    font-size: 16px;
+}
+.profile-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    cursor: pointer;
+}
+.header-profile-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.header-username{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile-option-icon{
+    font-size: 20px;
+}
